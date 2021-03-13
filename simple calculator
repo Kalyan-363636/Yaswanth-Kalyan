@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+     <head>
+         <title>web app to compute a simple Intrest</title> 
+         <script scr ="script.js"></script>
+         <link rel="stylesheet" href="style.css">
+     </head>
+     
+     <body>
+         <h1>SIMPLE INTREST CALCULATOR</h1>
+         
+         <input type="number" id="principal"> Amount <br/>
+         <input type="number" id="rate"> Rate<br/>
+         <input type="number" id="years"> No.of Years <br/>
+         Intrest : <span id="result"></span><br>
